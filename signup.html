@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/styles/homePage.css">
+    <link rel="stylesheet" href="/src/styles/signup.css">
+    <title>صفحه ثبت نام</title>
+</head>
+
+<body>
+    <header style="display: none;">
+        <section class="topHeader">
+            <div class="headerSearch">
+                <a href="/index.html">
+                    <h1 class="webTitle">ایـــرانی فرش</h1>
+                </a>
+
+                <div class="searchBox">
+                    <input type="search" placeholder="جستجو فرش">
+                    <img src="/src/svg/searchIcon.svg" alt="Search Icon">
+                </div>
+            </div>
+
+            <div class="headerBtn">
+                <a href="#">
+                    <button class="headerBtnStyle shoppingBtn">
+                        <img src="/src/svg/shoppingCartIcon.svg" alt="Shopping Cart Icon">
+                    </button>
+                </a>
+
+                <a href="/login.html" target="_self">
+                    <button class="headerBtnStyle loginBtn">
+                        <img src="/src/svg/loginIcon.svg" alt="Login Icon">
+                        <p>ورود/ثبت نام</p>
+                    </button>
+                </a>
+            </div>
+        </section>
+
+        <section class="headerMenu">
+            <ul>
+                <a href="/index.html">
+                    <li id="mainPage">صفحه اصلی</li>
+                </a>
+
+                <a href="#">
+                    <li>وبلاگ</li>
+                </a>
+
+                <a href="#">
+                    <li>تماس با ما</li>
+                </a>
+
+                <a href="#">
+                    <li>درباره ما</li>
+                </a>
+            </ul>
+        </section>
+    </header>
+
+    <main>
+        <section class="loginBox">
+            <div class="loginTitle">
+                <a href="/index.html">
+                    <h3>ایـــرانی  فرش</h3>
+                </a>
+                <h4>ثبت نام</h4>
+            </div>
+
+            <form class="loginForm">
+                <div class="phoneInput">
+                    <label for="firstName">نام</label>
+                    <img src="/src/svg/personOutlineRed.svg" alt="Person Outline">
+                    <input type="tel" placeholder="سام بختیاری" id="firstName" name="firstName">
+                </div>
+
+                <div class="phoneInput">
+                    <label for="lastName">نام خانوادگی</label>
+                    <img src="/src/svg/personOutlineGray.svg" alt="Person Outline">
+                    <input type="tel" placeholder="نام خانوادگی" id="lastName" name="lastName">
+                </div>
+
+                <div class="passwordInput">
+                    <label for="createPassword">ایجاد رمز عبور</label>
+                    <img src="/src/svg/key.svg" alt="Key">
+                    <input type="password" placeholder="ایجاد رمز عبور" id="createPassword" name="createPassword">
+                    <img src="/src/svg/visibilityOff.svg" alt="Visibility Off">
+                </div>
+
+                <div class="passwordInput">
+                    <label for="repeatPassword">تکرار رمز عبور</label>
+                    <img src="/src/svg/key.svg" alt="Key">
+                    <input type="password" placeholder="تکرار رمز عبور" id="repeatPassword" name="repeatPassword">
+                    <img src="/src/svg/visibilityOff.svg" alt="Visibility Off">
+                </div>
+
+                <div class="phoneInput">
+                    <label for="phone">شماره موبایل</label>
+                    <img src="/src/svg/phoneEnabled.svg" alt="Phone">
+                    <input type="tel" placeholder="شماره موبایل" id="phone" name="phone">
+                </div>
+
+                <input type="submit" value="ثبت نام">
+
+                <p class="goSignup">حساب کاربری دارید؟ <a href="/login.html">ورود</a>کنید</p>
+            </form>
+        </section>
+
+        <section class="loginBG">
+        </section>
+    </main>
+</body>
+
+</html>

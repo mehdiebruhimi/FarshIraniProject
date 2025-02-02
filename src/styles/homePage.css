@@ -183,6 +183,13 @@
     line-height: 140%; */
 }
 
+@font-face {
+    font-family: "iranSansXRegular";
+    src: url(/src/fonts/iranSansXRegular.woff2) format("woff2");
+    /* font-size: 20px;
+    line-height: 180%; */
+}
+
 
 /* Colors: */
 :root {
@@ -342,6 +349,12 @@ input[type="search"]::-webkit-search-cancel-button {
     padding: 16px;
     border: solid 1px #CB1B1B;
     border-radius: 12px;
+}
+
+.headerBtn a {
+    text-decoration: none;
+    outline: none;
+    border: none;
 }
 
 .shoppingBtn {
@@ -790,11 +803,18 @@ footer {
 
 .webTel,
 .webTel a {
-    font-family: "bodyS";
-    font-size: 18px;
+    font-family: "iranSansXRegular";
+    font-size: 20px;
     line-height: 180%;
     color: var(--neutral10);
     text-decoration: none;
+}
+
+.webTel a {
+    padding-right: 16px;
+    font-family: "iranSansXRegular";
+    font-size: 20px;
+    line-height: 180%;
 }
 
 .socailBox {
