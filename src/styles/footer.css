@@ -1,0 +1,377 @@
+/* Inserts: */
+
+/* Fonts: */
+@font-face {
+    font-family: "display1";
+    src: url(/src/fonts/rokhBold.woff2) format("woff2");
+    /* font-size: 56px;
+    line-height: 150%; */
+}
+
+@font-face {
+    font-family: "display2";
+    src: url(/src/fonts/rokhBold.woff2) format("woff2");
+    /* font-size: 64px;
+    line-height: 140%; */
+}
+
+@font-face {
+    font-family: "h1";
+    src: url(/src/fonts/rokhBold.woff2) format("woff2");
+    /* font-size: 44px;
+    line-height: 140%; */
+}
+
+@font-face {
+    font-family: "h2";
+    src: url(/src/fonts/rokhBold.woff2) format("woff2");
+    /* font-size: 40px;
+    line-height: 140%; */
+}
+
+@font-face {
+    font-family: "h3";
+    src: url(/src/fonts/rokhBold.woff2) format("woff2");
+    /* font-size: 32px;
+    line-height: 140%; */
+}
+
+@font-face {
+    font-family: "h4";
+    src: url(/src/fonts/rokhBold.woff2) format("woff2");
+    /* font-size: 24px;
+    line-height: 140%; */
+}
+
+@font-face {
+    font-family: "h5";
+    src: url(/src/fonts/rokhSemiBold.woff2) format("woff2");
+    /* font-size: 20px;
+    line-height: 140%; */
+}
+
+@font-face {
+    font-family: "h6";
+    src: url(/src/fonts/rokhBold.woff2) format("woff2");
+    /* font-size: 16px;
+    line-height: 140%; */
+}
+
+@font-face {
+    font-family: "captionMD";
+    src: url(/src/fonts/rokhSemiBold.woff2) format("woff2");
+    /* font-size: 12px;
+    line-height: 180%; */
+}
+
+@font-face {
+    font-family: "captionLG";
+    src: url(/src/fonts/rokhBold.woff2) format("woff2");
+    /* font-size: 14px;
+    line-height: 180%; */
+}
+
+@font-face {
+    font-family: "buttonS";
+    src: url(/src/fonts/rokhMedium.woff2) format("woff2");
+    /* font-size: 12px;
+    line-height: 180%; */
+}
+
+@font-face {
+    font-family: "buttonMD";
+    src: url(/src/fonts/rokhMedium.woff2) format("woff2");
+    /* font-size: 14px;
+    line-height: 180%; */
+}
+
+@font-face {
+    font-family: "buttonLG";
+    src: url(/src/fonts/rokhMedium.woff2) format("woff2");
+    /* font-size: 16px;
+    line-height: 180%; */
+}
+
+@font-face {
+    font-family: "buttonXLG";
+    src: url(/src/fonts/rokhMedium.woff2) format("woff2");
+    /* font-size: 18px;
+    line-height: 180%; */
+}
+
+@font-face {
+    font-family: "mobile";
+    src: url(/src/fonts/rokhMedium.woff2) format("woff2");
+    /* font-size: 10px;
+    line-height: 180%; */
+}
+
+@font-face {
+    font-family: "mobileCard";
+    src: url(/src/fonts/rokhBold.woff2) format("woff2");
+    /* font-size: 11px;
+    line-height: 180%; */
+}
+
+@font-face {
+    font-family: "bodyXXS";
+    src: url(/src/fonts/rokhSemiBold.woff2) format("woff2");
+    /* font-size: 14px;
+    line-height: 180%; */
+}
+
+@font-face {
+    font-family: "bodyXS";
+    src: url(/src/fonts/rokhSemiBold.woff2) format("woff2");
+    /* font-size: 16px;
+    line-height: 180%; */
+}
+
+@font-face {
+    font-family: "bodyS";
+    src: url(/src/fonts/rokhSemiBold.woff2) format("woff2");
+    /* font-size: 18px;
+    line-height: 180%; */
+}
+
+@font-face {
+    font-family: "bodyRegular";
+    src: url(/src/fonts/rokhMedium.woff2) format("woff2");
+    /* font-size: 20px;
+    line-height: 180%; */
+}
+
+@font-face {
+    font-family: "bodySMD";
+    src: url(/src/fonts/rokhRegular.woff2) format("woff2");
+    /* font-size: 24px;
+    line-height: 140%; */
+}
+
+@font-face {
+    font-family: "bodyMD";
+    src: url(/src/fonts/rokhSemiBold.woff2) format("woff2");
+    /* font-size: 24px;
+    line-height: 200%; */
+}
+
+@font-face {
+    font-family: "bodyLG";
+    src: url(/src/fonts/rokhRegular.woff2) format("woff2");
+    /* font-size: 28px;
+    line-height: 140%; */
+}
+
+@font-face {
+    font-family: "bodyXLG";
+    src: url(/src/fonts/rokhMedium.woff2) format("woff2");
+    /* font-size: 32px;
+    line-height: 140%; */
+}
+
+@font-face {
+    font-family: "body2XLG";
+    src: url(/src/fonts/rokhMedium.woff2) format("woff2");
+    /* font-size: 40px;
+    line-height: 140%; */
+}
+
+@font-face {
+    font-family: "body3XL";
+    src: url(/src/fonts/rokhMedium.woff2) format("woff2");
+    /* font-size: 44px;
+    line-height: 140%; */
+}
+
+@font-face {
+    font-family: "iranSansXRegular";
+    src: url(/src/fonts/iranSansXRegular.woff2) format("woff2");
+    /* font-size: 20px;
+    line-height: 180%; */
+}
+
+
+/* Colors: */
+:root {
+    --primary: #CB1B1B;
+    --white: #FFFFFF;
+    --black: #121212;
+    --green: #0F7B3B;
+    --yellow: #FFB800;
+    --tint01: #FDF1F1;
+    --tint02: #FCE8E8;
+    --tint03: #F9D2D2;
+    --tint04: #F6BBBB;
+    --tint05: #FCA197;
+    --tint06: #F66262;
+    --tint07: #E43434;
+    --shade01: #B41818;
+    --shade02: #9E1515;
+    --shade03: #871212;
+    --shade04: #700F0F;
+    --shade05: #5A0C0C;
+    --shade06: #430909;
+    --neutral01: #FAFAFA;
+    --neutral02: #F9F9F9;
+    --neutral03: #EDEDED;
+    --neutral04: #E1E1E1;
+    --neutral05: #D9D9D9;
+    --neutral06: #CBCBCB;
+    --neutral07: #ADADAD;
+    --neutral08: #909090;
+    --neutral09: #717171;
+    --neutral10: #505050;
+    --neutral11: #353535;
+    --neutral12: #212121;
+    --neutral13: #121212;
+    --gradientStop01: #013075;
+    --gradientStop02: #000000;
+}
+
+
+
+
+/* Design: */
+body {
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+button {
+    cursor: pointer;
+}
+
+
+/* Footer: */
+footer {
+    width: inherit;
+    position: static;
+    bottom: 0;
+    background-color: var(--neutral02);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footerContainer {
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    gap: 230px;
+    padding: 24px 0;
+}
+
+.footerAboutUs {
+    width: 496px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-bottom: 41px;
+}
+
+.footerDescription {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.webDescription {
+    font-family: "bodyXS";
+    font-size: 16px;
+    line-height: 180%;
+    color: var(--neutral10);
+    text-align: justify;
+}
+
+.footerDescription a {
+    text-decoration: none;
+}
+
+.footerContacts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contacsBox {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin: 13px 0;
+}
+
+.webTel,
+.webTel a {
+    font-family: "iranSansXRegular";
+    font-size: 20px;
+    line-height: 180%;
+    color: var(--neutral10);
+    text-decoration: none;
+}
+
+.webTel a {
+    padding-right: 16px;
+    font-family: "iranSansXRegular";
+    font-size: 20px;
+    line-height: 180%;
+}
+
+.socailBox {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.footerLinks {
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.linkBox {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.linkTitleBox {
+    width: 184px;
+    border-bottom: solid 1px var(--neutral03);
+    padding-bottom: 8px;
+}
+
+.linkTitle {
+    font-family: "h6";
+    font-size: 16px;
+    line-height: 140%;
+    color: var(--neutral10);
+}
+
+.linkItem {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    list-style-type: none;
+}
+
+.linkItem a {
+    text-decoration: none;
+    font-family: "bodyRegular";
+    font-size: 20px;
+    line-height: 180%;
+    color: var(--neutral09);
+}

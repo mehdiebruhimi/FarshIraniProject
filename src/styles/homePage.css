@@ -601,8 +601,8 @@ main {
 }
 
 .productsContainer {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
     justify-content: space-between;
 }
 
@@ -778,6 +778,10 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 24px;
+}
+
+.footerDescription a {
+    text-decoration: none;
 }
 
 .webDescription {

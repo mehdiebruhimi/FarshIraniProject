@@ -1,0 +1,768 @@
+/* Inserts: */
+
+/* Fonts: */
+@font-face {
+    font-family: "display1";
+    src: url(/src/fonts/rokhBold.woff2) format("woff2");
+    /* font-size: 56px;
+    line-height: 150%; */
+}
+
+@font-face {
+    font-family: "display2";
+    src: url(/src/fonts/rokhBold.woff2) format("woff2");
+    /* font-size: 64px;
+    line-height: 140%; */
+}
+
+@font-face {
+    font-family: "h1";
+    src: url(/src/fonts/rokhBold.woff2) format("woff2");
+    /* font-size: 44px;
+    line-height: 140%; */
+}
+
+@font-face {
+    font-family: "h2";
+    src: url(/src/fonts/rokhBold.woff2) format("woff2");
+    /* font-size: 40px;
+    line-height: 140%; */
+}
+
+@font-face {
+    font-family: "h3";
+    src: url(/src/fonts/rokhBold.woff2) format("woff2");
+    /* font-size: 32px;
+    line-height: 140%; */
+}
+
+@font-face {
+    font-family: "h4";
+    src: url(/src/fonts/rokhBold.woff2) format("woff2");
+    /* font-size: 24px;
+    line-height: 140%; */
+}
+
+@font-face {
+    font-family: "h5";
+    src: url(/src/fonts/rokhSemiBold.woff2) format("woff2");
+    /* font-size: 20px;
+    line-height: 140%; */
+}
+
+@font-face {
+    font-family: "h6";
+    src: url(/src/fonts/rokhBold.woff2) format("woff2");
+    /* font-size: 16px;
+    line-height: 140%; */
+}
+
+@font-face {
+    font-family: "captionMD";
+    src: url(/src/fonts/rokhSemiBold.woff2) format("woff2");
+    /* font-size: 12px;
+    line-height: 180%; */
+}
+
+@font-face {
+    font-family: "captionLG";
+    src: url(/src/fonts/rokhBold.woff2) format("woff2");
+    /* font-size: 14px;
+    line-height: 180%; */
+}
+
+@font-face {
+    font-family: "buttonS";
+    src: url(/src/fonts/rokhMedium.woff2) format("woff2");
+    /* font-size: 12px;
+    line-height: 180%; */
+}
+
+@font-face {
+    font-family: "buttonMD";
+    src: url(/src/fonts/rokhMedium.woff2) format("woff2");
+    /* font-size: 14px;
+    line-height: 180%; */
+}
+
+@font-face {
+    font-family: "buttonLG";
+    src: url(/src/fonts/rokhMedium.woff2) format("woff2");
+    /* font-size: 16px;
+    line-height: 180%; */
+}
+
+@font-face {
+    font-family: "buttonXLG";
+    src: url(/src/fonts/rokhMedium.woff2) format("woff2");
+    /* font-size: 18px;
+    line-height: 180%; */
+}
+
+@font-face {
+    font-family: "mobile";
+    src: url(/src/fonts/rokhMedium.woff2) format("woff2");
+    /* font-size: 10px;
+    line-height: 180%; */
+}
+
+@font-face {
+    font-family: "mobileCard";
+    src: url(/src/fonts/rokhBold.woff2) format("woff2");
+    /* font-size: 11px;
+    line-height: 180%; */
+}
+
+@font-face {
+    font-family: "bodyXXS";
+    src: url(/src/fonts/rokhSemiBold.woff2) format("woff2");
+    /* font-size: 14px;
+    line-height: 180%; */
+}
+
+@font-face {
+    font-family: "bodyXS";
+    src: url(/src/fonts/rokhSemiBold.woff2) format("woff2");
+    /* font-size: 16px;
+    line-height: 180%; */
+}
+
+@font-face {
+    font-family: "bodyS";
+    src: url(/src/fonts/rokhSemiBold.woff2) format("woff2");
+    /* font-size: 18px;
+    line-height: 180%; */
+}
+
+@font-face {
+    font-family: "bodyRegular";
+    src: url(/src/fonts/rokhMedium.woff2) format("woff2");
+    /* font-size: 20px;
+    line-height: 180%; */
+}
+
+@font-face {
+    font-family: "bodySMD";
+    src: url(/src/fonts/rokhRegular.woff2) format("woff2");
+    /* font-size: 24px;
+    line-height: 140%; */
+}
+
+@font-face {
+    font-family: "bodyMD";
+    src: url(/src/fonts/rokhSemiBold.woff2) format("woff2");
+    /* font-size: 24px;
+    line-height: 200%; */
+}
+
+@font-face {
+    font-family: "bodyLG";
+    src: url(/src/fonts/rokhRegular.woff2) format("woff2");
+    /* font-size: 28px;
+    line-height: 140%; */
+}
+
+@font-face {
+    font-family: "bodyXLG";
+    src: url(/src/fonts/rokhMedium.woff2) format("woff2");
+    /* font-size: 32px;
+    line-height: 140%; */
+}
+
+@font-face {
+    font-family: "body2XLG";
+    src: url(/src/fonts/rokhMedium.woff2) format("woff2");
+    /* font-size: 40px;
+    line-height: 140%; */
+}
+
+@font-face {
+    font-family: "body3XL";
+    src: url(/src/fonts/rokhMedium.woff2) format("woff2");
+    /* font-size: 44px;
+    line-height: 140%; */
+}
+
+@font-face {
+    font-family: "iranSansXRegular";
+    src: url(/src/fonts/iranSansXRegular.woff2) format("woff2");
+    /* font-size: 20px;
+    line-height: 180%; */
+}
+
+
+/* Colors: */
+:root {
+    --primary: #CB1B1B;
+    --white: #FFFFFF;
+    --black: #121212;
+    --green: #0F7B3B;
+    --yellow: #FFB800;
+    --tint01: #FDF1F1;
+    --tint02: #FCE8E8;
+    --tint03: #F9D2D2;
+    --tint04: #F6BBBB;
+    --tint05: #FCA197;
+    --tint06: #F66262;
+    --tint07: #E43434;
+    --shade01: #B41818;
+    --shade02: #9E1515;
+    --shade03: #871212;
+    --shade04: #700F0F;
+    --shade05: #5A0C0C;
+    --shade06: #430909;
+    --neutral01: #FAFAFA;
+    --neutral02: #F9F9F9;
+    --neutral03: #EDEDED;
+    --neutral04: #E1E1E1;
+    --neutral05: #D9D9D9;
+    --neutral06: #CBCBCB;
+    --neutral07: #ADADAD;
+    --neutral08: #909090;
+    --neutral09: #717171;
+    --neutral10: #505050;
+    --neutral11: #353535;
+    --neutral12: #212121;
+    --neutral13: #121212;
+    --gradientStop01: #013075;
+    --gradientStop02: #000000;
+}
+
+
+
+
+/* Design: */
+body {
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+*, a     {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+
+/* Header: */
+.breadCrumb {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 6px;
+    margin: 16px 0;
+}
+
+.breadCrumbItem {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 6px;
+}
+
+.breadCrumbItem a {
+    text-decoration: none;
+    font-family: "bodyS";
+    font-size: 18px;
+    line-height: 180%;
+    color: var(--primary);
+    
+}
+
+.breadCrumb div:last-child a {
+    color: var(--neutral08);
+}
+
+
+/* Main: */
+main {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    gap: 120px;
+    margin-bottom: 144px;
+}
+
+.productBuy {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.aboutProduct {
+    width: 440px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 28px;
+}
+
+.productGallery {
+    width: 436px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.otherPictureContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+}
+
+.otherPicture {
+    width: 100px;
+    height: 100px;
+    border: solid 1px var(--neutral06);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.otherPictureContainer div:last-child {
+    border: none;
+    background-color: rgb(255, 255, 255, 0.7);
+    background-image: url("/src/svg/otherPicture04.svg");
+    background-blend-mode: overlay;
+}
+
+.otherPictureContainer div:last-child a {
+    margin: 0 auto;
+}
+
+.productDetail {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 28px;
+}
+
+.productTitle {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 16px;
+    border-bottom: solid 1px var(--neutral07);
+    padding-bottom: 16px;
+}
+
+.productCategoryTitle {
+    font-family: "h6";
+    font-size: 16px;
+    line-height: 140%;
+    color: var(--primary);
+}
+
+.productNameTitle {
+    font-family: "h4";
+    font-size: 24px;
+    line-height: 140%;
+    color: var(--black);
+}
+
+.carpetDetail {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.carpetSize {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+}
+
+.carpetSize p {
+    font-family: "bodyS";
+    font-size: 18px;
+    line-height: 180%;
+    color: var(--black);
+}
+
+.productFeatures {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.featureTitle {
+    font-family: "bodyS";
+    font-size: 18px;
+    line-height: 180%;
+    color: var(--black);
+}
+
+.featureBox {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px 24px;
+}
+
+.featureItem {
+    width: 208px;
+    height: 70px;
+    background-color: var(--neutral03);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 6px 12px;
+}
+
+.featureItem p:first-child {
+    font-family: "buttonMD";
+    font-size: 14px;
+    line-height: 180%;
+    color: var(--neutral11);
+}
+
+.featureItem p:last-child {
+    font-family: "bodyXS";
+    font-size: 16px;
+    line-height: 180%;
+    color: var(--black);
+}
+
+.allFeatureBtn {
+    text-decoration: none;
+    margin: 0 auto;
+    margin-top: 12px;
+}
+
+.allFeatureBtn button {
+    width: 146px;
+    height: 40px;
+    background-color: var(--white);
+    border: solid 1px var(--primary);
+    border-radius: 12px;
+    font-family: "captionLG";
+    font-size: 14px;
+    line-height: 180%;
+    color: var(--primary);
+}
+
+.addProToCart {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 24px;
+    border: solid 1px var(--neutral07);
+    border-radius: 12px;
+    padding: 30px 12px;
+}
+
+.addProToCart hr {
+    width: 100%;
+    color: var(--neutral07);
+    margin: 0 auto;
+}
+
+.addProToCartTitle {
+    font-family: "h6";
+    font-size: 16px;
+    line-height: 140%;
+    color: var(--black);
+}
+
+.productCompany {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}
+
+.productCompany p {
+    font-family: "bodyXS";
+    font-size: 16px;
+    line-height: 180%;
+    color: var(--neutral12);
+}
+
+.productPerformance {
+    font-family: "bodyXXS";
+    font-size: 14px;
+    line-height: 180%;
+    color: var(--black);
+}
+
+.productPerformance span {
+    color: var(--green);
+}
+
+.productRate {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4px;
+}
+
+.productRate p {
+    font-family: "bodyXXS";
+    font-size: 14px;
+    line-height: 180%;
+    color: var(--black);
+}
+
+.productCash {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.productCashTitle {
+    font-family: "h6";
+    font-size: 16px;
+    line-height: 140%;
+    color: var(--neutral11);
+}
+
+.productCashAmount {
+    font-family: "h5";
+    font-size: 20px;
+    line-height: 140%;
+    color: var(--black);
+}
+
+.addToCartBtn {
+    text-decoration: none;
+}
+
+.addToCartBtn button {
+    width: 288px;
+    height: 40px;
+    background-color: var(--primary);
+    color: var(--white);
+    border: none;
+    border-radius: 12px;
+    font-family: "captionLG";
+    font-size: 14px;
+    line-height: 180%;
+    color: var(--white);
+}
+
+.products {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.topProducts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.topProductsTitle {
+    font-family: "h5";
+    font-size: 20px;
+    line-height: 140%;
+    color: var(--black);
+}
+
+.productsContainer {
+    width: inherit;
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    justify-content: space-between;
+    background-color: ;
+}
+
+.productBox {
+    width: 225.5px;
+    border: solid 1px var(--neutral05);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 24px;
+    padding: 16px;
+}
+
+.productName {
+    width: 193.5px;
+    font-family: "bodyS";
+    font-size: 18px;
+    line-height: 180%;
+    color: var(--black);
+}
+
+.productPrice {
+    color: var(--black);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.proPriceTitle {
+    font-family: "bodyXXS";
+    font-size: 14px;
+    line-height: 180%;
+}
+
+.proPriceAmount {
+    font-family: "bodyS";
+    font-size: 18px;
+    line-height: 180%;
+}
+
+.productBox a {
+    text-decoration: none;
+}
+
+.productBox button {
+    width: 193.5px;
+    height: 48px;
+    border: solid 1px var(--primary);
+    border-radius: 12px;
+    background-color: var(--white);
+    font-family: "captionLG";
+    font-size: 14px;
+    line-height: 180%;
+    color: var(--primary);
+    padding: 0 8px;
+}
+
+.comments {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* gap: 18px; */
+}
+
+.commentsTitle {
+    font-family: "h5";
+    font-size: 20px;
+    line-height: 140%;
+    color: var(--black);
+}
+
+.commentInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.commentUserInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 40px;
+}
+
+.commentUserName {
+    font-family: "h6";
+    font-size: 16px;
+    line-height: 140%;
+    color: var(--black);
+}
+
+.commentDateInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+}
+
+.commentDateInfo p {
+    font-family: "captionMD";
+    font-size: 12px;
+    line-height: 180%;
+    color: var(--neutral08);
+}
+
+.interactIcons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.commentContent {
+    width: 85%;
+    border-top: solid 1px var(--neutral05);
+    border-bottom: solid 1px var(--neutral05);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    gap: 16px;
+    padding: 24px 0;
+    margin: 0 auto;
+}
+
+.commentRating {
+    width: 44px;
+    height: 29px;
+    background-color: var(--neutral03);
+    display: flex;
+    border-radius: 4px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+
+.commentRating p {
+    font-family: "buttonLG";
+    font-size: 16px;
+    line-height: 180%;
+    color: var(--neutral08);
+}
+
+.commentText {
+    font-family: "bodyXXS";
+    font-size: 14px;
+    line-height: 180%;
+    color: var(--neutral13);
+}
+
+.allCommnetBtn {
+    text-decoration: none;
+    margin: 0 auto;
+}
+
+.allCommnetBtn button {
+    width: 149px;
+    height: 40px;
+    border: solid 1px var(--primary);
+    border-radius: 12px;
+    font-family: "captionLG";
+    font-size: 14px;
+    line-height: 180%;
+    color: var(--primary);
+    background-color: var(--white);
+    margin-top: 12px;
+}

@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/src/styles/homePage.css">
+    <link rel="stylesheet" href="/src/styles/header.css">
     <link rel="stylesheet" href="/src/styles/login.css">
     <title>صفحه ورود</title>
 </head>
@@ -24,14 +24,18 @@
             </div>
 
             <div class="headerBtn">
-                <button class="headerBtnStyle shoppingBtn">
-                    <img src="/src/svg/shoppingCartIcon.svg" alt="Shopping Cart Icon">
-                </button>
+                <a href="/shoppingCart.html">
+                    <button class="headerBtnStyle shoppingBtn">
+                        <img src="/src/svg/shoppingCartIcon.svg" alt="Shopping Cart Icon">
+                    </button>
+                </a>
 
-                <button class="headerBtnStyle loginBtn">
-                    <img src="/src/svg/loginIcon.svg" alt="Login Icon">
-                    <p>ورود/ثبت نام</p>
-                </button>
+                <a href="/login.html" target="_self">
+                    <button class="headerBtnStyle loginBtn">
+                        <img src="/src/svg/loginIcon.svg" alt="Login Icon">
+                        <p>ورود/ثبت نام</p>
+                    </button>
+                </a>
             </div>
         </section>
 
