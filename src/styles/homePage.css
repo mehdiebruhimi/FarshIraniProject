@@ -272,6 +272,10 @@ header {
     align-items: center;
 }
 
+.humburgerMenu {
+    display: none;
+}
+
 .headerSearch {
     display: flex;
     flex-direction: row;
@@ -506,25 +510,33 @@ main {
 .categoryBox1 {
     width: 392px;
     height: 288px;
-    background: url("/src/svg/homePagePictures1.1.svg") no-repeat;
+    border-radius: 16px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(1, 48, 117, 0.8)), url("/src/svg/homePagePictures1.1.svg") no-repeat;
+    background-blend-mode: overlay;
 }
 
 .categoryBox2 {
     width: 392px;
     height: 288px;
-    background: url("/src/svg/homePagePictures1.2.svg") no-repeat;
+    border-radius: 16px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(1, 48, 117, 0.8)), url("/src/svg/homePagePictures1.2.svg") no-repeat;
+    background-blend-mode: overlay;
 }
 
 .categoryBox3 {
     width: 392px;
     height: 132px;
-    background: url("/src/svg/homePagePictures1.3.svg") no-repeat;
+    border-radius: 16px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(1, 48, 117, 0.8)), url("/src/svg/homePagePictures1.3.svg") no-repeat;
+    background-blend-mode: overlay;
 }
 
 .categoryBox4 {
     width: 392px;
     height: 132px;
-    background: url("/src/svg/homePagePictures1.4.svg") no-repeat;
+    border-radius: 16px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(1, 48, 117, 0.8)), url("/src/svg/homePagePictures1.4.svg") no-repeat;
+    background-blend-mode: overlay;
 }
 
 .categoryBox {
@@ -665,25 +677,33 @@ main {
 .categoryBox21 {
     width: 392px;
     height: 288px;
-    background: url("/src/svg/homePagePictures2.1.svg") no-repeat;
+    border-radius: 16px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(1, 48, 117, 0.8)), url("/src/svg/homePagePictures2.1.svg") no-repeat;
+    background-blend-mode: overlay;
 }
 
 .categoryBox22 {
     width: 392px;
     height: 288px;
-    background: url("/src/svg/homePagePictures2.2.svg") no-repeat;
+    border-radius: 16px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(1, 48, 117, 0.8)), url("/src/svg/homePagePictures2.2.svg") no-repeat;
+    background-blend-mode: overlay;
 }
 
 .categoryBox23 {
     width: 392px;
     height: 132px;
-    background: url("/src/svg/homePagePictures2.3.svg") no-repeat;
+    border-radius: 16px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(1, 48, 117, 0.8)), url("/src/svg/homePagePictures2.3.svg") no-repeat;
+    background-blend-mode: overlay;
 }
 
 .categoryBox24 {
     width: 392px;
     height: 132px;
-    background: url("/src/svg/homePagePictures2.4.svg") no-repeat;
+    border-radius: 16px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(1, 48, 117, 0.8)), url("/src/svg/homePagePictures2.4.svg") no-repeat;
+    background-blend-mode: overlay;
 }
 
 .joinSection {

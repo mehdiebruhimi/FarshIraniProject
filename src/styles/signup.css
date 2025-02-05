@@ -249,6 +249,10 @@ body {
     box-sizing: inherit;
 }
 
+/* Header: */
+header {
+    display: none;
+}
 
 /* Main: */
 main {
@@ -256,6 +260,8 @@ main {
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
+    gap: 104px;
+    margin: 61px 0;
 }
 
 .loginBox {
@@ -379,3 +385,26 @@ input + img {
     background: linear-gradient(to bottom, rgb(0, 0, 0, 0.4 ) 0%, rgb(31, 33, 97, 0.4) 100%), url("/src/svg/loginBG.svg");
     /* opacity: 40%; */
 }
+
+
+
+
+/* Responsive:
+@media only screen and (max-width: 1200px) {
+    header {
+        display: flex;
+    }
+
+}
+
+@media only screen and (max-width: 992px) {
+    
+}
+
+@media only screen and (max-width: 768px) {
+    
+}
+
+@media only screen and (max-width: 576px) {
+    
+} */

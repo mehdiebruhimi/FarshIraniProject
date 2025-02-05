@@ -375,3 +375,24 @@ footer {
     line-height: 180%;
     color: var(--neutral09);
 }
+
+
+
+
+/* Responsive:
+@media only screen and (max-width: 576px) {
+    .footerContainer {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        padding: 24px 16px;
+    }
+
+    .footerLinks {
+        width: 317px;
+    }
+
+    .linkBox {
+        width: 106px;
+    }
+} */
